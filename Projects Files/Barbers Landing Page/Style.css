@@ -1,0 +1,316 @@
+:root{
+    --main-color: #37132d;
+}
+
+/* Resets */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Starts */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: rgb(132, 132, 132); */
+    padding: 30px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-family: serif;
+}
+
+/* Nav Ends */
+
+/* Section Starts */
+.content__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.header__content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.header__heading{
+    font-size: 4rem;
+    font-family: serif;
+    
+}
+
+.header__sub-headings{
+    width: 70%;
+    font-family: serif;
+    color: rgb(82, 82, 80);
+    margin: 20px 0;
+}
+
+.header__img-container{
+    width: 30%;
+    height: 50vh;
+    position: relative;
+}
+
+.img-one{
+   position: absolute;
+   left: 10rem ; 
+}
+
+.img-two{
+    position: absolute;
+    left: 3rem;
+    top: 8rem;
+}
+
+.header__img{
+    width: 200px;
+    height: 300px;
+}
+
+.main-btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    background: var(--main-color);
+    color: white;
+    font-family: serif;
+}
+/* Section Ends */
+
+/* Experienc Section Starts */
+.experience{
+    height: 90vh;
+    margin-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+.experience-img{
+    background: url(eugene-chystiakov-taZSJ6xmt48-unsplash.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.gray-heading{
+    color: gray;
+    font-family: serif;
+}
+.btn-container{
+    margin-top: 30px;
+}
+/* Experience Section Ends */
+/* Social Media section starts  */
+.social-media{
+    margin: 5rem;
+}
+
+.sm-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.follow{
+    padding: 20px;
+    color: white;
+    background:var(--main-color) ;
+    font-family: serif;
+    font-weight: bold;
+    margin-right: 3rem;
+    text-align: center;
+
+}
+/* Social Media section Ends  */
+
+/* Hero Section Starts */
+.hero{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-container{
+    background: url(albert-dera-ILip77SbmOE-unsplash.jpg);
+    background-size: cover;
+    background-position:  top;
+    width: 300px;
+    height: 400px;
+}
+
+.hero__sub-headings{
+    width: 400px;
+
+}
+
+.hero__content{
+    margin-left: 6rem;
+}
+/* Hero Section Ends */
+
+/* Services Section Starts */
+.services{
+    margin-top: 10rem;
+}
+
+.services__g-heading{
+    margin-left: 5rem;
+}
+
+.services-heading{
+    margin-left: 5rem;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px rgb(223, 223, 223);
+    margin: 20px;
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:  top;
+}
+
+.img-one{
+    background-image: url(john-arano-CCTCHXEsan8-unsplash.jpg);
+}
+.img-two{
+    background-image: url(allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+}
+.img-three{
+    background-image: url(christoffer-engstrom-1ouGlRChSbY-unsplash.jpg);
+}
+
+.card-content{
+    transform: translateY(200px);
+    text-align: center;
+    margin: 10px;
+}
+
+.card-title{
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.card-info{
+    font-family: var(--main-color);
+    text-align: center;
+    color: rgb(109, 109, 109);
+    margin: 30px 40px ;
+}
+/* Services Section Ends */
+
+/* Footer Section Starts */
+.footer{
+    background: var(--main-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 50vh;
+    margin-top: 10rem;
+}
+
+.footer__card-title{
+    font-family: serif;
+}
+
+.footer__card-info{
+    font-family: serif;
+    /* line-height: 2rem; */
+    margin: 1rem;
+}
+/* Footer Section Ends */
+
+/* Responsiveness Starts */
+@media (min-width:576px){
+    .header__heading{
+        font-size: 20px;
+    }
+
+    .header__img-container{
+        width: 80%;
+    }
+
+    body{
+        padding: 0;
+    }
+
+    .btn-container{
+        margin-bottom:20px;
+    }
+
+    .social-media{
+        display: inline;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness Ends */
+
+

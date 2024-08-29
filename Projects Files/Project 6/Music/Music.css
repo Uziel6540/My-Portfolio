@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+    color: white;
+
+  }
+  header {
+    color: chartreuse;
+    text-align: center;
+    padding: 20px 0;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  article {
+    padding: 20px;
+    border-bottom: 1px solid white;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table th, table td {
+    border: 3px solid white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+  
+

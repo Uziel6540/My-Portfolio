@@ -1,0 +1,25 @@
+.skills {
+  height: 70vh;
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  //   margin-left: 50px;
+  //   margin-top: 8rem;
+  color: #fff;
+  font-size: 2rem;
+  font-family: $main-font;
+  font-weight: normal;
+}
+
+.imgs {
+  height: 200px;
+  width: 200px;
+  margin: 30px 10px;
+  //   max-width: 800px;
+}
+
+.me {
+  background: $label-color;
+}
